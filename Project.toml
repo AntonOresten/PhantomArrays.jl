@@ -3,7 +3,11 @@ uuid = "9e4237ce-75b5-43ea-9534-b0345025d9d8"
 authors = ["Anton Oresten <antonoresten@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+
 [compat]
+StaticArraysCore = "1"
 julia = "1.10"
 
 [extras]
